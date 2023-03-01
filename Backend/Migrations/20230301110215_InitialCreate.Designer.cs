@@ -8,8 +8,8 @@ using WebApiCiCd.Services;
 namespace WebApiCiCd.Migrations
 {
     [DbContext(typeof(UserContext))]
-    [Migration("20211110080819_RemoveDefaultValueForUserRole")]
-    partial class RemoveDefaultValueForUserRole
+    [Migration("20230301110215_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
